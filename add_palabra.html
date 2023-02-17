@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Ahorcado</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link href="index.html">
+  </head>
+  <body>
+    <header>
+      <h1>Ahorcado</h1>
+    </header>
+      <main>  
+        <textarea id="uno" rows="14" cols="65" class="cuadro" placeholder="Ingresa tu nueva palabra." maxlength="8" value="" onkeyup="this.value=Letras(this.value)"--> </textarea></textarea>
+        <p class="signo">&#128710</p> Máx. 8 letras</p>
+        <div class="caja">
+                <nav>
+                    <ul>
+                        <a href="index.html"><button class="inicia-juego" onclick="inicia()">Guardar y Jugar!</button></a>
+                        <a href="index.html"><button class="inicio" onclick="inicio()">Cancelar</button></a>
+                    </ul>
+                </nav>
+        </div>
+        <script>
+         /* import {iniciar, click_letras, game_over, adicion} from '/horca.js'*/
+          document.querySelector('#uno');
+          console.log('#uno');
+          const plai = document.getElementsByClassName('inciar-juego');
+
+          /*input.value = plai;*/
+          const add = {
+            value,
+            palabras,
+          };
+
+          localStorage.setItem('palabras', JSON.stringify(add));
+
+        </script>
+        
+      </main>
+  </body>
+</html>
