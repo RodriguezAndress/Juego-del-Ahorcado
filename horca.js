@@ -36,13 +36,13 @@ function iniciar() {
   cant_errores=0;
 
   const palabrasLocales = localStorage.getItem("palabras");
-
   palabras = JSON.parse(palabrasLocales);
 
   let parrafo = document.querySelector("#palabra_a_adivinar");
   parrafo.innerHTML = "";
 
   sincronizarStorage();
+  console.log(palabrasLocales);
 
   let cant_palabras = palabras.length;
   let valor_al_azar = obtener_random(0, cant_palabras);
