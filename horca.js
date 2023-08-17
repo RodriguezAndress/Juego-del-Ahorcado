@@ -34,15 +34,13 @@ function iniciar() {
   resultado.innerHTML = "";
   cant_aciertos=0;
   cant_errores=0;
-
   const palabrasLocales = localStorage.getItem("palabras");
-
-  palabras = JSON.parse(palabrasLocales);
 
   let parrafo = document.querySelector("#palabra_a_adivinar");
   parrafo.innerHTML = "";
 
   sincronizarStorage();
+   palabras = JSON.parse(palabrasLocales);
   console.log(palabrasLocales);
 
   let cant_palabras = palabras.length;
