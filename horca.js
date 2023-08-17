@@ -36,6 +36,7 @@ function iniciar() {
   cant_errores=0;
 
   const palabrasLocales = localStorage.getItem("palabras");
+
   palabras = JSON.parse(palabrasLocales);
 
   let parrafo = document.querySelector("#palabra_a_adivinar");
@@ -49,7 +50,6 @@ function iniciar() {
   pala_secret = palabras[valor_al_azar];
   let cant_letras = pala_secret.length;
   console.log(pala_secret);
-
   for (let i = 0; i < btn_letras.length; i++) {
     btn_letras[i].disabled = false;
   }
