@@ -61,12 +61,12 @@ main{
   
 }
 #input{
-  display: grid;
-  align-items: start;
-  margin-left: 2rem;
-  margin-right: 90rem;
+  /*display: grid;
+  align-items: start;*/
+  margin-left: -2rem;
+  margin-right: 109rem;
   margin-top: 2rem;
-  padding: 3px;
+  padding: 2px;
   border-radius: 5px;
   font-family: 'sono';
   font-size: 16px;
@@ -75,8 +75,9 @@ main{
 }
 .inicia-juego, .inicio{
   padding: 3px;
-  margin-left: 10rem;
-  margin-right: 86rem;
+  margin-top: -1.5rem;
+  margin-left: 20rem;
+  margin-right: 87rem;
   border-radius: 5px;
   font-family: 'sono';
   font-size: 16px;
