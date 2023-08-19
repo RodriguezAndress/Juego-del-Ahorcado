@@ -9,9 +9,8 @@ body{
 }
 header{
   background: black;
-  padding: 5px;
   text-align: center;
-  margin-bottom: 13px;
+  margin-bottom: -22px;
 }
 h1{
   margin: 0;
@@ -105,6 +104,7 @@ main{
   height: 450px;
   margin-left: 30rem;
   margin-top: 2px;
+  margin-bottom: -1.5em;
   box-shadow:-1px 3px 15px 8px #ddd;
   border-radius: 9px;
 }
