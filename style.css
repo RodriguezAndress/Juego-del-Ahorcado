@@ -33,7 +33,7 @@ main{
   border-color: #f4ebeb;
   box-shadow:-1px 2px 5px 2px #dfcaca;
   margin-top: -5rem;
-  margin-left: 48rem;
+  margin-left: 38rem;
 }
 #add_nueva_palabra {
   padding: 3px;
@@ -103,7 +103,7 @@ main{
 #imagen{
   width: 350px;
   height: 550px;
-  margin-left: 47rem;
+  margin-left: 38rem;
   margin-top: -2rem;
   box-shadow:-1px 3px 15px 8px #ddd;
   border-radius: 9px;
@@ -111,7 +111,7 @@ main{
 #palabra_a_adivinar{
   height: 3em;
   margin-top: 1.5em;
-  margin-left: 47em;
+  margin-left: 36em;
 }
 #palabra_a_adivinar span{
   vertical-align: bottom;
@@ -123,7 +123,7 @@ main{
   display: inline-block; 
 }
 #letras{
-  margin-left: 31rem;
+  margin-left: 19rem;
 #letras button{
   margin-top: 10px;
   margin-right: 3px;
