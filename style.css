@@ -124,6 +124,7 @@ main{
 }
 #letras{
   margin-left: 9rem;
+}
 #letras button{
   margin-top: 10px;
   margin-right: 3px;
@@ -136,7 +137,7 @@ main{
   box-shadow:-1px 2px 5px 2px #dfcaca;
 }
 #resultado{
-  margin-left: 48rem;
+  margin-left: 43rem;
   font-size: 2em;
   margin-top: -1rem;
   color: rgb(27, 223, 13);
