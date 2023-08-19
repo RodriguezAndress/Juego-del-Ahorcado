@@ -38,9 +38,9 @@ function iniciar() {
 
   let parrafo = document.querySelector("#palabra_a_adivinar");
   parrafo.innerHTML = "";
-
-  sincronizarStorage();
    palabras = JSON.parse(palabrasLocales);
+
+   sincronizarStorage();
   console.log(palabrasLocales);
 
   let cant_palabras = palabras.length;
