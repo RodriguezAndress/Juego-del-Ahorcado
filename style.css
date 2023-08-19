@@ -9,9 +9,9 @@ body{
 }
 header{
   background: black;
-  padding: 10px;
+  padding: 5px;
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 13px;
 }
 h1{
   margin: 0;
@@ -32,7 +32,7 @@ main{
   font-family: 'sono';
   border-color: #f4ebeb;
   box-shadow:-1px 2px 5px 2px #dfcaca;
-  margin-top: -5rem;
+  margin-top: 1rem;
   margin-left: 29rem;
 }
 #add_nueva_palabra {
@@ -102,9 +102,9 @@ main{
 }
 #imagen{
   width: 350px;
-  height: 550px;
+  height: 450px;
   margin-left: 30rem;
-  margin-top: -2rem;
+  margin-top: 2px;
   box-shadow:-1px 3px 15px 8px #ddd;
   border-radius: 9px;
 }
@@ -134,6 +134,12 @@ main{
   font-size: 16px;
   border-color: #f4ebeb;
   box-shadow:-1px 2px 5px 2px #dfcaca;
+}
+#resultado{
+  margin-left: 48rem;
+  font-size: 2em;
+  margin-top: -1rem;
+  color: rgb(27, 223, 13);
 }
 @media screen and (max-width: 915px) {
   main{
