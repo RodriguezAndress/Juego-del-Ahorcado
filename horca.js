@@ -27,7 +27,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 //Funciones
 
-function iniciar() {
+function iniciar(e) {
 
   imagen.src = "img/ahorcado0.png";
   btn.disabled = true;
