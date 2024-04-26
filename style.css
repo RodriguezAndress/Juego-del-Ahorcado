@@ -45,24 +45,32 @@ main{
 #uno {
   border-radius: 10px;
   margin-left: 25rem;
+ /* border-radius: 10px;
+  margin-left: 25rem;
   height: 8rem;
   width: 32rem;
   font-size: 30px;
-  font-family: 'Gloria Hallelujah', sans-serif;
+  font-family: 'Gloria Hallelujah', sans-serif;*/
 }
 .signo {
-  display: grid;
+  display:contents ;
+  /*display: grid;
   align-content: stretch;
   justify-content: center;
   font-size: 21px;
   margin-top: -1rem;
   margin-right: 30rem;
-  margin-left: 7rem;
+  margin-left: 7rem;*/
 }
 .caja{
   display: grid;
   align-items: start;
-  margin-left: 21rem;
+  margin-left: 30rem;
+  margin-right: 30rem;
+  display: contents;
+ /* display: grid;
+  align-items: start;
+  margin-left: 21rem;*/
   
 }
 #Agregar{
@@ -78,6 +86,11 @@ main{
 }
 .inicia-juego, .inicio{
   padding: 3px;
+  border-radius: 5px;
+  font-family: 'sono';
+  border-color: #f4ebeb;
+  box-shadow:-1px 2px 5px 2px #dfcaca;
+ /* padding: 3px;
   margin-top: -1.5rem;
   margin-left: 20rem;
   margin-right: 87rem;
@@ -85,7 +98,7 @@ main{
   font-family: 'sono';
   font-size: 16px;
   border-color: #f4ebeb;
-  box-shadow:-1px 2px 5px 2px #dfcaca;
+  box-shadow:-1px 2px 5px 2px #dfcaca;*/
 }
 .inicia-juego:hover{
   font-size: 15px;
@@ -93,22 +106,26 @@ main{
 .inicio:hover{
   font-size: 15px;
 }
-#input:hover{
+#Agregar:hover{
   font-size: 15px;
 }
 #imagen{
-  width: 350px;
+  width: 200px;
+  margin-left: 120px;
+  box-shadow:-1px 3px 15px 8px #ddd;
+  border-radius: 9px;
+  /*width: 350px;
   height: 450px;
   margin-left: 30rem;
   margin-top: 2px;
   margin-bottom: -1.5em;
   box-shadow:-1px 3px 15px 8px #ddd;
-  border-radius: 9px;
+  border-radius: 9px;*/
 }
 #palabra_a_adivinar{
   height: 3em;
-  margin-top: 1.5em;
-  margin-left: 28em;
+ /* margin-top: 1.5em;
+  margin-left: 28em;*/
 }
 #palabra_a_adivinar span{
   vertical-align: bottom;
@@ -117,13 +134,13 @@ main{
   width: 29px;
   text-align: center;
   margin-right: 6px;
-  display: inline-block; 
+  display: inline-block;
 }
 #letras{
   margin-left: 9rem;
 }
 #letras button{
-  margin-top: 10px;
+  margin-top: 7px;
   margin-right: 3px;
   border-style: double;
   border-radius: 3px;
