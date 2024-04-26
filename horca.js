@@ -102,7 +102,7 @@ function game_over() {
 }
 
 function nuevaPalabra(e) {
-  //e.preventDefault();
+  e.preventDefault();
 
   const uno = document.querySelector("#uno").value;
 
