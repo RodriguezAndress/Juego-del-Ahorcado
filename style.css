@@ -178,4 +178,7 @@ main{
     margin-left: 3.5rem;
   
   }
+  #letras{
+    margin: auto;
+    position: absolute;
 }
