@@ -158,13 +158,16 @@ main{
 }
 @media screen and (max-width: 915px) {
   main{
-    width: 90%;
-    padding: 15px;
+    width: 90vh;
+    height: 200vh;
+    padding: unset;
     flex-wrap: wrap;
+    place-content: flex-start;
     min-height: 50vh
   }
   #imagen{
     width: 100px;
+    height: 550px;
     position: inherit;
   }
   #uno{
