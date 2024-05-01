@@ -165,6 +165,13 @@ main{
     place-content: flex-start;
     min-height: 50vh
   }
+  header{
+    text-aling: left;
+    padding-left: 100px;
+  }
+  body{
+    margin: 0px -370px 0px 0px;
+  }
   #imagen{
     width: 100px;
     height: 315px;
