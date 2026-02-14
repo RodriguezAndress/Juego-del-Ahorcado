@@ -128,12 +128,6 @@ function nuevaPalabra(e) {
   mostrarPalabras(); // actualizar la vista
 }
 
-function palabraAgregada(e){
-  e.preventDefault();
-
-  alert('Palabra agregada!');
-}
-
 function sincronizarStorage() {
   // Elimina duplicados automáticamente
   palabras = [...new Set(palabras)];
@@ -141,3 +135,4 @@ function sincronizarStorage() {
 }
 
 console.log(localStorage);
+
