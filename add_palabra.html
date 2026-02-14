@@ -21,7 +21,12 @@
           <textarea id="uno" rows="14" cols="65" class="cuadro" placeholder="Ingresa tu nueva palabra." maxlength="8" ></textarea>
         </form> 
           <div class="caja">
-            <input type="submit" class="button u-full-width button-primary" id="Agregar" value="Agregar">
+           <button onclick="alert('Palabra Guardada!')" id="Agregar" value="Agregar">Agregar</button>
+              <script>
+                document.getElementById("Agregar").addEventListener("click", function() {
+                  location.reload();
+                });
+              </script>
            
             <a href="index.html"><button class="inicio" onclick="inicio()">Volver</button></a>
           </div>
@@ -34,3 +39,4 @@
       <script src="funciones.js"></script>
   </body>
 </html>
+
