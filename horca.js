@@ -100,25 +100,44 @@ function game_over() {
   }
   btn.disabled = false;
 }
-
 function nuevaPalabra(e) {
   e.preventDefault();
 
-  const nuevaPalabraInput = document.querySelector("#uno").value.trim().toUpperCase();
+  const uno = document.querySelector('#uno').value.trim().toUpperCase();
 
-  let palabrasLocales = localStorage.getItem("palabras");
-  palabras = palabrasLocales ? JSON.parse(palabrasLocales) : palabras;
+  // Validar que no esté vacío
+  if (!uno) {
+    console.log("No se puede agregar una palabra vacía.");
+    return;
+  }
 
-  palabras.push(nuevaPalabraInput);
+  const palabrasLocales = localStorage.getItem('palabras');
+  palabras = palabrasLocales ? JSON.parse(palabrasLocales) : [];
+
+  // Validar si ya existe
+  if (palabras.includes(uno)) {
+    console.log("La palabra ya existe, no se puede agregar.");
+    return;
+  }
+
+  // Agregar solo si pasa las validaciones
+  palabras.push(uno);
+  console.log("Palabra agregada correctamente:", palabras);
 
   sincronizarStorage();
+  mostrarPalabras(); // actualizar la vista
+}
+
+function palabraAgregada(e){
+  e.preventDefault();
+
+  alert('Palabra agregada!');
 }
 
 function sincronizarStorage() {
+  // Elimina duplicados automáticamente
+  palabras = [...new Set(palabras)];
   localStorage.setItem("palabras", JSON.stringify(palabras));
 }
 
-function obtener_random(min, max) {
-  return Math.floor(Math.random() * (max - min)) + min;
-}
 console.log(localStorage);
