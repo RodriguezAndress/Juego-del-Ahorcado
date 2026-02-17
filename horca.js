@@ -86,10 +86,10 @@ function click_letras(event) {
     imagen.src = source;
   }
   if (cant_errores == 8) {
-    resultado.innerHTML = "Perdiste, la palabra era " + palabra;
+    resultado.setHTMLUnsafe("Perdiste, la palabra era " + palabra);
     game_over();
   } else if (cant_aciertos == palabra.length) {
-    resultado.innerHTML = "Genial, ¡Ganaste!";
+    resultado.innerText = "Genial, ¡Ganaste!";
     game_over();
   }
 }
@@ -135,4 +135,5 @@ function sincronizarStorage() {
 }
 
 console.log(localStorage);
+
 
