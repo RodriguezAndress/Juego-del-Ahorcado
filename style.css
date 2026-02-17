@@ -158,19 +158,22 @@ main{
 }
 @media screen and (max-width: 915px) {
   main{
-    width: 90vh;
-    height: 200vh;
+    width: 55vh;
+    height: 80vh;
     padding: unset;
-    flex-wrap: wrap;
+    flex-direction: column;
+    flex-wrap: nowrap;
     place-content: flex-start;
-    min-height: 50vh
+    min-height: 30vh
   }
   header{
     text-aling: left;
-    padding-left: 100px;
+    padding-left: 89px;
   }
   body{
-    margin: 0px -370px 0px 0px;
+    margin: 1vh;
+    min-height: 500px;
+    height: 200vh;
   }
   #imagen{
     width: 100px;
@@ -178,17 +181,26 @@ main{
     position: inherit;
   }
   #uno{
-    margin-left: 0;
+    margin: 1rem -1rem 1rem 1.1rem;
+    width: 20rem;
   }
   .caja{
     margin-left: 3rem;
   }
   .signo{
     margin-right: 9rem;
-    margin-left: 3.5rem;
+    margin-left: 6rem;
   
   }
   #letras{
     margin: auto;
     position: absolute;
+  }
+ #Agregar{
+  margin: 1rem 2rem 0rem 8rem;
+  }
+.inicia-juego, .inicio{
+  margin: 1rem 4rem 0rem 8rem;
+  font-size: 15px;
+  }
 }
